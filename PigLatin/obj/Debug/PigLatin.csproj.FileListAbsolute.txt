@@ -1,0 +1,7 @@
+\\mi\dfs\users\LChang\Desktop\GrandCircus\PigLatin\PigLatin\obj\Debug\PigLatin.csprojAssemblyReference.cache
+\\mi\dfs\users\LChang\Desktop\GrandCircus\PigLatin\PigLatin\obj\Debug\PigLatin.csproj.CoreCompileInputs.cache
+\\mi\dfs\users\LChang\Desktop\GrandCircus\PigLatin\PigLatin\bin\Debug\PigLatin.exe.config
+\\mi\dfs\users\LChang\Desktop\GrandCircus\PigLatin\PigLatin\bin\Debug\PigLatin.exe
+\\mi\dfs\users\LChang\Desktop\GrandCircus\PigLatin\PigLatin\bin\Debug\PigLatin.pdb
+\\mi\dfs\users\LChang\Desktop\GrandCircus\PigLatin\PigLatin\obj\Debug\PigLatin.exe
+\\mi\dfs\users\LChang\Desktop\GrandCircus\PigLatin\PigLatin\obj\Debug\PigLatin.pdb
