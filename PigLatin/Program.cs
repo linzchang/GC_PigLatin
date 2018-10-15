@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PigLatin
 {
-    
+
     class Program
     {
         static void Main(string[] args)
@@ -29,7 +29,17 @@ namespace PigLatin
                     Console.WriteLine("That is not valid input.");
                     continue;
                 }
-                //ALSO can check for numbers and symbolds here
+                //validate if user entered a string containing a number or symbol
+                else if (Regex.IsMatch(userText, @"[0-9]"))
+                {
+                    Console.WriteLine(userText + " is not a valid input, please do not enter any numbers or symbols.");
+                    continue;
+                }
+                else if (Regex.IsMatch(userText, @"[@#$%^&*()_+-=~`:;{}|\<>/]"))
+                {
+                    Console.WriteLine(userText + " is not a valid input, please do not enter any numbers or symbols.");
+                    continue;
+                }
 
                 //break up User's input into an array of strings
                 phrase = userText.Split(' ');
@@ -64,7 +74,7 @@ namespace PigLatin
                     CheckVowel(word);
                 }
                 //word must start with a consonant
-                else 
+                else
                 {
                     CheckConsonant(word);
                 }
@@ -93,6 +103,7 @@ namespace PigLatin
                 word = restOfWord + firstLetter;
             }
             Console.Write(word + "ay" + " ");
-        }  
-    }
+        }
+
+    }  
 }
